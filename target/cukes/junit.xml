@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="55.990134">
+<testcase classname="Flipkart automation" name="Login Functionality" time="55.990134">
+<system-out><![CDATA[Given user navigates to https://www.flipkart.com/...........................passed
+When User enters "username" and "password" to LogIn.........................passed
+And user logins into the site...............................................passed
+Then User enters the product name to be search and add it to cart...........passed
+]]></system-out>
+</testcase>
+</testsuite>

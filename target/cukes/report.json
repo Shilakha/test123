@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "flipkart-automation;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26806409991,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to https://www.flipkart.com/",
+            "match": {
+              "location": "Steps.user_navigates_to_https_www_flipkart_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3027148374,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"username\" and \"password\" to LogIn",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 13
+                },
+                {
+                  "val": "password",
+                  "offset": 28
+                }
+              ],
+              "location": "Steps.user_enters_and_to_LogIn(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9468474068,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logins into the site",
+            "match": {
+              "location": "Steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16688101589,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the product name to be search and add it to cart",
+            "match": {
+              "location": "Steps.user_enters_the_product_name_to_be_search()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart automation",
+    "description": "Description: This feature will test a LogIn and search functionality",
+    "id": "flipkart-automation",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
